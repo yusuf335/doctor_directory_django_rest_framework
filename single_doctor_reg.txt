@@ -1,0 +1,41 @@
+# Before registering any doctor please make sure you have added category, distrcit and gender.
+# You can add those directly from django admin panel
+
+
+{
+    "name": "Dctor 1",
+    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "phone": 12356789,
+    "email": "doctor1@gmail.com",
+    "category": 1,
+    "address": "ABC, level - 4",
+    "district": 1,
+    "gender": 1,
+    "lat": null,
+    "lng": null,
+    "price": 400,
+    "language": "English, Bangla",
+    "education": "MBBS",
+    "public_holiday": "U",
+    "experience": [
+        {
+            "workplace": "ABC Hospital",
+            "designation": "Senior Consultant"
+        }
+    ],
+    "service": [
+        {"service": "Inclusive 3 Days of Western medicine"}
+    ],
+    "operating_hours": [
+        {
+            "weekday": 1,
+            "from_hour": "03:53:51",
+            "to_hour": "03:53:49"
+        },
+        {
+            "weekday": 2,
+            "from_hour": "03:53:51",
+            "to_hour": "03:53:49"
+        }
+    ]
+}
